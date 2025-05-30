@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex_container{
+    border: black solid 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch; 
+    width: 600px;
+    height: 400px;
+}
+.flex_item{
+    /* height: 100px; */
+    width: 100px;
+}
+.fl1{
+    background-color: aquamarine;
+    flex-grow: 0.5;
+}
+.fl2{
+    background-color: red;
+    flex-grow: 1;
+}
+.fl3{
+    background-color: blueviolet;
+    flex-grow: 2;
+}
+.fl4{
+    background-color: yellow;
+    flex-grow: 0.3;
+}
+.fl5{
+    background-color: green;
+    flex-grow: 1;
+}
